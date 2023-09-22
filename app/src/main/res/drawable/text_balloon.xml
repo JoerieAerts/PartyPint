@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Shape -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <stroke android:color="#1D1D1F" android:width="10dp" />
+            <solid android:color="#FFFDFA" /> <!-- Background color of the bubble -->
+            <corners android:radius="10dp" /> <!-- Rounded corners for the bubble -->
+        </shape>
+    </item>
+</layer-list>

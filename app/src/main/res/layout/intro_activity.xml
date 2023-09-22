@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    android:gravity="center"> <!-- Add android:gravity="center" here -->
+
+    <TextView
+        android:id="@+id/textViewBBBSleep"
+        android:layout_width="253dp"
+        android:layout_height="94dp"
+        android:background="@drawable/text_balloon"
+        android:fontFamily="@font/chewy"
+        android:padding="16dp"
+        android:text="@string/textBBBZZZ"
+        android:textColor="#1D1D1F" />
+
+    <ImageView
+        android:id="@+id/imageBBBSleep"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/mascot_height"
+        android:layout_marginTop="@dimen/mascot_margin_top"
+        android:contentDescription="@string/bierbuikbertSlaapDescription"
+        android:src="@drawable/bierbuik_bert" />
+
+</LinearLayout>

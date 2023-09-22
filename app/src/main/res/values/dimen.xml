@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define the mascot's height in dp -->
+    <dimen name="mascot_height">292dp</dimen>
+
+    <!-- Define the margin-top for the mascot in dp -->
+    <dimen name="mascot_margin_top">100dp</dimen>
+</resources>
